@@ -6,16 +6,13 @@ Document management system built on **Google Cloud Platform**. Users upload docu
 
 | I want to... | Go to... |
 |---|---|
-| **Learn the architecture** | [Architecture Overview](docs/architecture.md) |
 | **Set up & run locally** | [Build Instructions](docs/build.md) |
-| **Understand testing** | [Testing Guidelines](docs/testing.md) |
-| **See design decisions** | [Architecture Decisions](docs/adr/) |
-| **Follow coding rules** | [Project Structure & Rules](.github/instructions/project-structure.instructions.md) |
+| **Deployment Guidelines** | [Deployment Guidelines](docs/deployment.md) |
 
 ## 🧰 Tech Stack
 
 **Backend** → ASP.NET Core 10 | **Frontend** → Vue 3 + PrimeVue | **Infrastructure** → Terraform  
-**Services** → Cloud Storage · Firestore · Cloud SQL (PostgreSQL) · Cloud Run · Pub/Sub
+**Google Cloud Services** → Cloud Storage · Firestore · Cloud SQL (PostgreSQL) · Cloud Run · Pub/Sub
 
 ## 🗂 Project Structure
 
@@ -26,10 +23,8 @@ Document management system built on **Google Cloud Platform**. Users upload docu
 │   ├── app/                           # Application source code
 │   │   ├── api/                       # ASP.NET Core API
 │   │   ├── webapp/                    # Vue 3 frontend
-│   │   ├── azf/                       # Cloud Functions
 │   │   ├── dal/                       # Data access layer for Postgres database
 │   │   └── sharedentities/            # Shared entities used for data acess layer
-│   ├── diagram/                       # Architecture diagrams
 ```
 
 ## 🚀 Getting Started
