@@ -37,6 +37,8 @@ Document management system built on **Google Cloud Platform**. Users upload docu
   <img width="1588" height="863" alt="image" src="https://github.com/user-attachments/assets/e4dc995f-f9e6-432e-90f9-830a285e4afc" />
 
 - Vue App
+   <img width="1887" height="493" alt="image" src="https://github.com/user-attachments/assets/5550c0ad-8d21-46cf-9592-00a1c4ccfc8e" />
+
    <img width="1890" height="836" alt="Recording 2026-07-18 232227" src="https://github.com/user-attachments/assets/519338bb-1eba-4e81-98e8-d74880c54ad8" />
 
 
