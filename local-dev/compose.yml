@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  fake-gcs:
+    image: fsouza/fake-gcs-server
+    ports:
+      - "4443:4443"
+    command: >
+      sh -c "fake-gcs-server -scheme https -public-host localhost:4443 &
+      sleep 5 &&
+      curl -k -X POST https://localhost:4443/storage/v1/b?project=local-dev -H 'Content-Type: application/json' -d '{\"name\":\"dev-documents-bucket\"}' &&
+      wait"
+#curl.exe -k -X POST "https://localhost:4443/storage/v1/b?project=local-dev" -H "Content-Type: application/json" -d '{"name":"dev-documents-bucket"}'
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_PASSWORD: localpassword
+      POSTGRES_DB: storagedb
+    ports:
+      - "5432:5432"

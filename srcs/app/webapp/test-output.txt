@@ -1,0 +1,1075 @@
+﻿
+> vuewebappex@0.0.0 test
+> vitest
+
+
+[7m[1m[34m DEV [39m[22m[27m [34mv1.6.1[39m [90mC:/Users/prmai/source/repos/shared-storage-samples/storage-management/app/webapp[39m
+
+ [32mΓ£ô[39m src/models/SignedUrlModels.spec.ts [2m ([22m[2m31 tests[22m[2m)[22m[90m 11[2mms[22m[39m
+[90mstdout[2m | src/services/HttpService.spec.ts[2m > [22m[2mHttpService[2m > [22m[2mpostForData[2m > [22m[2mpostForData_HttpErrorResponse_CatchesError[22m[39m
+{ error: [32m'Invalid request'[39m }
+[33m400[39m
+[90mundefined[39m
+
+[90mstdout[2m | src/services/HttpService.spec.ts[2m > [22m[2mHttpService[2m > [22m[2mpostForData[2m > [22m[2mpostForData_NetworkError_CatchesError[22m[39m
+Network timeout
+
+[90mstdout[2m | src/services/HttpService.spec.ts[2m > [22m[2mHttpService[2m > [22m[2mpostForData[2m > [22m[2mpostForData_Multiple401Responses_EachCallHandledIndependently[22m[39m
+{ error: [32m'Unauthorized'[39m }
+[33m401[39m
+[90mundefined[39m
+
+[90mstdout[2m | src/services/HttpService.spec.ts[2m > [22m[2mHttpService[2m > [22m[2mget[2m > [22m[2mget_ApiError_ReturnsUndefined[22m[39m
+[90mundefined[39m
+[33m500[39m
+[90mundefined[39m
+
+[90mstdout[2m | src/services/HttpService.spec.ts[2m > [22m[2mHttpService[2m > [22m[2mpost[2m > [22m[2mpost_ApiError_ReturnsZero[22m[39m
+[90mundefined[39m
+[33m500[39m
+[90mundefined[39m
+
+ [33mΓ¥»[39m src/services/HttpService.spec.ts [2m ([22m[2m18 tests[22m [2m|[22m [31m1 failed[39m[2m)[22m[90m 39[2mms[22m[39m
+[31m   [33mΓ¥»[31m src/services/HttpService.spec.ts[2m > [22mHttpService[2m > [22mpost[2m > [22mpost_ApiError_ReturnsZero[39m
+[31m     ΓåÆ expected 0 to be +0 // Object.is equality[39m
+ [33mΓ¥»[39m src/components/SignedUrlUpload.spec.ts [2m ([22m[2m23 tests[22m [2m|[22m [31m23 failed[39m[2m)[22m[90m 299[2mms[22m[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22mComponent Initialization[2m > [22mComponent_OnMount_LoadsDocumentTypes[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22mComponent Initialization[2m > [22mComponent_InitialState_ErrorAndSuccessAreNull[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22mComponent Initialization[2m > [22mComponent_DocumentTypesLoadFails_HandlesGracefully[39m
+[31m     ΓåÆ expected [Function] to not throw an error but 'TypeError: Cannot read properties of ΓÇª' was thrown[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22monFileSelect[2m > [22monFileSelect_WithValidFile_SetsFileNameAndSelectedFile[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22monFileSelect[2m > [22monFileSelect_WithValidFile_ClearsErrorAndSuccess[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22monFileSelect[2m > [22monFileSelect_WithMultipleFiles_SelectsFirstOne[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22monFileSelect[2m > [22monFileSelect_WithEmptyFilesList_DoesNothing[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22monFileSelect[2m > [22monFileSelect_WithSpecialCharacterFileName_StoresFileName[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22monFileSelect[2m > [22monFileSelect_WithImageFile_StoresImageFileName[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_ValidUpload_SuccessfulFlow[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_NoFileSelected_ShowsError[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_NoDocumentTypeSelected_ShowsError[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_NoUploadUrlInResponse_ShowsError[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_SignedUrlServiceReturnsNull_ShowsError[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_Axios403Error_ShowsPermissionError[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_Axios400Error_ShowsInvalidRequestError[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_AxiosOtherError_ShowsGenericError[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_AxiosNetworkError_ShowsGenericError[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_DocumentServiceFails_ShowsGenericError[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_FileWithoutMimeType_UsesOctetStreamDefault[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_ClearsErrorsBeforeAttempt[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_RequestsSignedUrlWithCorrectDocTypeCode[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_PassesObjectNameToDocumentService[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+node.exe : [90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2mComponent Initialization[2m > [22m[2mComponent_OnMount_LoadsDocumentTypes[22m[39m
+At C:\Program Files\nodejs\npm.ps1:29 char:3
++   & $NODE_EXE $NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([90mstderr[2m...Types[22m[39m:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [
+  { docTypeCode: [32m'INV'[39m, docTypeDescription: [32m'Invoice'[39m },
+  { docTypeCode: [32m'PO'[39m, docTypeDescription: [32m'Purchase Order'[39m }
+]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > [22m[2mComponent 
+Initialization[2m > [22m[2mComponent_InitialState_ErrorAndSuccessAreNull[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > [22m[2mComponent 
+Initialization[2m > [22m[2mComponent_DocumentTypesLoadFails_HandlesGracefully[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2monFileSelect[2m > [22m[2monFileSelect_WithValidFile_SetsFileNameAndSelectedFile[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2monFileSelect[2m > [22m[2monFileSelect_WithValidFile_ClearsErrorAndSuccess[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2monFileSelect[2m > [22m[2monFileSelect_WithMultipleFiles_SelectsFirstOne[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2monFileSelect[2m > [22m[2monFileSelect_WithEmptyFilesList_DoesNothing[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2monFileSelect[2m > [22m[2monFileSelect_WithSpecialCharacterFileName_StoresFileName[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2monFileSelect[2m > [22m[2monFileSelect_WithImageFile_StoresImageFileName[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_ValidUpload_SuccessfulFlow[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_NoFileSelected_ShowsError[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_NoDocumentTypeSelected_ShowsError[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_NoUploadUrlInResponse_ShowsError[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_SignedUrlServiceReturnsNull_ShowsError[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_Axios403Error_ShowsPermissionError[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_Axios400Error_ShowsInvalidRequestError[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_AxiosOtherError_ShowsGenericError[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_AxiosNetworkError_ShowsGenericError[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_DocumentServiceFails_ShowsGenericError[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_FileWithoutMimeType_UsesOctetStreamDefault[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_ClearsErrorsBeforeAttempt[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_RequestsSignedUrlWithCorrectDocTypeCode[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_PassesObjectNameToDocumentService[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+ [32mΓ£ô[39m src/services/SignedUrlService.spec.ts [2m ([22m[2m11 tests[22m[2m)[22m[90m 12[2mms[22m[39m
+
+[31mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[1m[7m Failed Tests 24 [27m[22mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22mComponent Initialization[2m > [22mComponent_OnMount_LoadsDocumentTypes
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22mComponent Initialization[2m > [22mComponent_InitialState_ErrorAndSuccessAreNull
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22monFileSelect[2m > [22monFileSelect_WithValidFile_SetsFileNameAndSelectedFile
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22monFileSelect[2m > [22monFileSelect_WithValidFile_ClearsErrorAndSuccess
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22monFileSelect[2m > [22monFileSelect_WithMultipleFiles_SelectsFirstOne
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22monFileSelect[2m > [22monFileSelect_WithEmptyFilesList_DoesNothing
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22monFileSelect[2m > [22monFileSelect_WithSpecialCharacterFileName_StoresFileName
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22monFileSelect[2m > [22monFileSelect_WithImageFile_StoresImageFileName
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_ValidUpload_SuccessfulFlow
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_NoFileSelected_ShowsError
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_NoDocumentTypeSelected_ShowsError
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_NoUploadUrlInResponse_ShowsError
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_SignedUrlServiceReturnsNull_ShowsError
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_Axios403Error_ShowsPermissionError
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_Axios400Error_ShowsInvalidRequestError
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_AxiosOtherError_ShowsGenericError
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_AxiosNetworkError_ShowsGenericError
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_DocumentServiceFails_ShowsGenericError
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_FileWithoutMimeType_UsesOctetStreamDefault
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_ClearsErrorsBeforeAttempt
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_RequestsSignedUrlWithCorrectDocTypeCode
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_PassesObjectNameToDocumentService
+[31m[1mTypeError[22m: Cannot read properties of undefined (reading 'config')[39m
+[90m [2mΓ¥»[22m Proxy.chooseButtonLabel node_modules/src/fileupload/FileUpload.vue:[2m420:55[22m[39m
+[90m [2mΓ¥»[22m ReactiveEffect.fn node_modules/@vue/reactivity/dist/reactivity.cjs.js:[2m1009:13[22m[39m
+[90m [2mΓ¥»[22m ReactiveEffect.run node_modules/@vue/reactivity/dist/reactivity.cjs.js:[2m187:19[22m[39m
+[90m [2mΓ¥»[22m ComputedRefImpl.get value [as value] 
+node_modules/@vue/reactivity/dist/reactivity.cjs.js:[2m1022:109[22m[39m
+[90m [2mΓ¥»[22m Object.chooseButtonLabel 
+node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:[2m2653:22[22m[39m
+[90m [2mΓ¥»[22m Proxy.render 
+node_modules/src/fileupload/FileUpload.vue?vue&type=template&id=f9c2f764&lang.js:[2m59:42[22m[39m
+[90m [2mΓ¥»[22m renderComponentRoot node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:[2m886:16[22m[39m
+[90m [2mΓ¥»[22m ReactiveEffect.componentUpdateFn [as fn] 
+node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:[2m5080:46[22m[39m
+[90m [2mΓ¥»[22m ReactiveEffect.run node_modules/@vue/reactivity/dist/reactivity.cjs.js:[2m187:19[22m[39m
+[90m [2mΓ¥»[22m instance.update node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:[2m5211:16[22m[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[1/24]ΓÄ»[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22mComponent Initialization[2m > [22mComponent_DocumentTypesLoadFails_HandlesGracefully
+[31m[1mAssertionError[22m: expected [Function] to not throw an error but 'TypeError: Cannot read properties of ΓÇª' 
+was thrown[39m
+
+[32m- Expected:[39m 
+undefined
+
+[31m+ Received:[39m 
+"TypeError: Cannot read properties of undefined (reading 'config')"
+
+[36m [2mΓ¥»[22m src/components/SignedUrlUpload.spec.ts:[2m87:14[22m[39m
+    [90m 85| [39m      [34mexpect[39m(() [33m=>[39m {
+    [90m 86| [39m        wrapper [33m=[39m [34mmount[39m([33mSignedUrlUpload[39m)[33m;[39m
+    [90m 87| [39m      })[33m.[39mnot[33m.[39m[34mtoThrow[39m()[33m;[39m
+    [90m   | [39m             [31m^[39m
+    [90m 88| [39m    })[33m;[39m
+    [90m 89| [39m  })[33m;[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[2/24]ΓÄ»[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/services/HttpService.spec.ts[2m > [22mHttpService[2m > [22mpost[2m > 
+[22mpost_ApiError_ReturnsZero
+[31m[1mAssertionError[22m: expected 0 to be +0 // Object.is equality[39m
+
+[32m- Expected:[39m 
+0
+
+[31m+ Received:[39m 
+Number {}
+
+[36m [2mΓ¥»[22m src/services/HttpService.spec.ts:[2m367:22[22m[39m
+    [90m365| [39m      [90m// Assert[39m
+    [90m366| [39m      [90m// post method returns new Number() which evaluates to 0 on error[39m
+    [90m367| [39m      [34mexpect[39m(result)[33m.[39m[34mtoBe[39m([34m0[39m)[33m;[39m
+    [90m   | [39m                     [31m^[39m
+    [90m368| [39m    })[33m;[39m
+    [90m369| [39m  })[33m;[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[3/24]ΓÄ»[22m[39m
+
+[31mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[1m[7m Unhandled Errors [27m[22mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[39m
+[31m[1m
+Vitest caught 1 unhandled error during the test run.
+This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.[22m[39m
+
+[31mΓÄ»ΓÄ»ΓÄ»ΓÄ»[1m[7m Unhandled Rejection [27m[22mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[39m
+[31m[1mError[22m: API Error[39m
+[36m [2mΓ¥»[22m src/components/SignedUrlUpload.spec.ts:[2m81:9[22m[39m
+    [90m 79| [39m      [90m// Arrange[39m
+    [90m 80| [39m      
+mockDocumentTypeService[33m.[39mgetDocumentTypeFromAPI[33m.[39m[34mmockRejectedValue[39mΓÇª
+    [90m 81| [39m        [35mnew[39m [33mError[39m([32m'API Error'[39m)
+    [90m   | [39m        [31m^[39m
+    [90m 82| [39m      )[33m;[39m
+    [90m 83| [39m
+[90m [2mΓ¥»[22m node_modules/@vitest/runner/dist/index.js:[2m135:14[22m[39m
+[90m [2mΓ¥»[22m node_modules/@vitest/runner/dist/index.js:[2m60:26[22m[39m
+[90m [2mΓ¥»[22m runTest node_modules/@vitest/runner/dist/index.js:[2m781:17[22m[39m
+[90m [2mΓ¥»[22m runSuite node_modules/@vitest/runner/dist/index.js:[2m909:15[22m[39m
+[90m [2mΓ¥»[22m runSuite node_modules/@vitest/runner/dist/index.js:[2m909:15[22m[39m
+[90m [2mΓ¥»[22m runSuite node_modules/@vitest/runner/dist/index.js:[2m909:15[22m[39m
+[90m [2mΓ¥»[22m runFiles node_modules/@vitest/runner/dist/index.js:[2m958:5[22m[39m
+[90m [2mΓ¥»[22m startTests node_modules/@vitest/runner/dist/index.js:[2m967:3[22m[39m
+[90m [2mΓ¥»[22m node_modules/vitest/dist/chunks/runtime-runBaseTests.oAvMKtQC.js:[2m116:7[22m[39m
+
+[31mThis error originated in "[1msrc/components/SignedUrlUpload.spec.ts[22m" test file. It doesn't mean the error 
+was thrown inside the file itself, but while it was running.[39m
+[31mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[39m
+
+[2m Test Files [22m [1m[31m2 failed[39m[22m[2m | [22m[1m[32m2 passed[39m[22m[90m (4)[39m
+[2m      Tests [22m [1m[31m24 failed[39m[22m[2m | [22m[1m[32m59 passed[39m[22m[90m (83)[39m
+[2m     Errors [22m [1m[31m1 error[39m[22m
+[2m   Start at [22m 07:51:31
+[2m   Duration [22m 3.19s[2m (transform 428ms, setup 1ms, collect 1.23s, tests 361ms, environment 4.12s, prepare 925ms)[22m
+
+
+[1m[7m[31m FAIL [39m[27m[22m[31m Tests failed. Watching for file changes...[39m
+       [2mpress [22m[1mh[22m[2m to show help[22m[2m, [22m[2mpress [22m[1mq[22m[2m to quit[22m
+[3Jc
+[7m[1m[34m RERUN [39m[22m[27m[2m src/components/SignedUrlUpload.spec.ts[22m [34mx1[39m
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_ValidUpload_SuccessfulFlow[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_NoFileSelected_ShowsError[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_NoDocumentTypeSelected_ShowsError[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_NoUploadUrlInResponse_ShowsError[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_SignedUrlServiceReturnsNull_ShowsError[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_Axios403Error_ShowsPermissionError[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_Axios400Error_ShowsInvalidRequestError[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_AxiosOtherError_ShowsGenericError[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_AxiosNetworkError_ShowsGenericError[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_DocumentServiceFails_ShowsGenericError[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+ [33mΓ¥»[39m src/components/SignedUrlUpload.spec.ts [2m ([22m[2m22 tests[22m [2m|[22m [31m21 failed[39m[2m)[22m[33m 438[2mms[22m[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22mComponent Initialization[2m > [22mComponent_InitialState_ErrorAndSuccessAreNull[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'then')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22monFileSelect[2m > [22monFileSelect_WithValidFile_SetsFileNameAndSelectedFile[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'then')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22monFileSelect[2m > [22monFileSelect_WithValidFile_ClearsErrorAndSuccess[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'then')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22monFileSelect[2m > [22monFileSelect_WithMultipleFiles_SelectsFirstOne[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'then')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22monFileSelect[2m > [22monFileSelect_WithEmptyFilesList_DoesNothing[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'then')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22monFileSelect[2m > [22monFileSelect_WithSpecialCharacterFileName_StoresFileName[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'then')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22monFileSelect[2m > [22monFileSelect_WithImageFile_StoresImageFileName[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'then')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_ValidUpload_SuccessfulFlow[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_NoFileSelected_ShowsError[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_NoDocumentTypeSelected_ShowsError[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_NoUploadUrlInResponse_ShowsError[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_SignedUrlServiceReturnsNull_ShowsError[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_Axios403Error_ShowsPermissionError[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_Axios400Error_ShowsInvalidRequestError[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_AxiosOtherError_ShowsGenericError[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_AxiosNetworkError_ShowsGenericError[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_DocumentServiceFails_ShowsGenericError[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_FileWithoutMimeType_UsesOctetStreamDefault[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_ClearsErrorsBeforeAttempt[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_RequestsSignedUrlWithCorrectDocTypeCode[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+[31m   [33mΓ¥»[31m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > [22muploadAndSave[2m > [22muploadAndSave_PassesObjectNameToDocumentService[39m
+[31m     ΓåÆ Cannot read properties of undefined (reading 'config')[39m
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_FileWithoutMimeType_UsesOctetStreamDefault[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_ClearsErrorsBeforeAttempt[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_RequestsSignedUrlWithCorrectDocTypeCode[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+[90mstderr[2m | src/components/SignedUrlUpload.spec.ts[2m > [22m[2mSignedUrlUpload.vue[2m > 
+[22m[2muploadAndSave[2m > [22m[2muploadAndSave_PassesObjectNameToDocumentService[22m[39m
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <FileUpload ref="fileupload" mode="basic" onSelect=fn<onFileSelect>  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options=undefined  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+[Vue warn]: Property "$primevue" was accessed during render but is not defined on instance. 
+  at <Select modelValue=undefined onUpdate:modelValue=fn options= [ { docTypeCode: [32m'INV'[39m, 
+docTypeDescription: [32m'Invoice'[39m } ]  ... > 
+  at <SignedUrlUpload ref="VTU_COMPONENT" > 
+  at <VTUROOT>
+
+
+[31mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[1m[7m Failed Tests 21 [27m[22mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22mComponent Initialization[2m > [22mComponent_InitialState_ErrorAndSuccessAreNull
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22monFileSelect[2m > [22monFileSelect_WithValidFile_SetsFileNameAndSelectedFile
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22monFileSelect[2m > [22monFileSelect_WithValidFile_ClearsErrorAndSuccess
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22monFileSelect[2m > [22monFileSelect_WithMultipleFiles_SelectsFirstOne
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22monFileSelect[2m > [22monFileSelect_WithEmptyFilesList_DoesNothing
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22monFileSelect[2m > [22monFileSelect_WithSpecialCharacterFileName_StoresFileName
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22monFileSelect[2m > [22monFileSelect_WithImageFile_StoresImageFileName
+[31m[1mTypeError[22m: Cannot read properties of undefined (reading 'then')[39m
+[36m [2mΓ¥»[22m src/components/SignedUrlUpload.vue:[2m27:48[22m[39m
+    [90m 25| [39m
+    [90m 26| [39monMounted(() => {
+    [90m 27| [39m    documentTypeService.getDocumentTypeFromAPI().then(data => documentΓÇª
+    [90m   | [39m                                               [31m^[39m
+    [90m 28| [39m});
+    [90m 29| [39m
+[90m [2mΓ¥»[22m node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:[2m1807:40[22m[39m
+[90m [2mΓ¥»[22m callWithErrorHandling node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:[2m196:19[22m[39m
+[90m [2mΓ¥»[22m callWithAsyncErrorHandling 
+node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:[2m203:17[22m[39m
+[90m [2mΓ¥»[22m hook.__weh.hook.__weh node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:[2m1787:19[22m[39m
+[90m [2mΓ¥»[22m flushPostFlushCbs node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:[2m378:32[22m[39m
+[90m [2mΓ¥»[22m render node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:[2m5752:7[22m[39m
+[90m [2mΓ¥»[22m mount node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:[2m3057:13[22m[39m
+[90m [2mΓ¥»[22m Object.app.mount node_modules/@vue/runtime-dom/dist/runtime-dom.cjs.js:[2m1473:19[22m[39m
+[90m [2mΓ¥»[22m Proxy.mount node_modules/@vue/test-utils/dist/vue-test-utils.cjs.js:[2m8302:20[22m[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[1/21]ΓÄ»[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_ValidUpload_SuccessfulFlow
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_NoFileSelected_ShowsError
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_NoDocumentTypeSelected_ShowsError
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_NoUploadUrlInResponse_ShowsError
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_SignedUrlServiceReturnsNull_ShowsError
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_Axios403Error_ShowsPermissionError
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_Axios400Error_ShowsInvalidRequestError
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_AxiosOtherError_ShowsGenericError
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_AxiosNetworkError_ShowsGenericError
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_DocumentServiceFails_ShowsGenericError
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_FileWithoutMimeType_UsesOctetStreamDefault
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_ClearsErrorsBeforeAttempt
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_RequestsSignedUrlWithCorrectDocTypeCode
+[31m[1m[7m FAIL [27m[22m[39m src/components/SignedUrlUpload.spec.ts[2m > [22mSignedUrlUpload.vue[2m > 
+[22muploadAndSave[2m > [22muploadAndSave_PassesObjectNameToDocumentService
+[31m[1mTypeError[22m: Cannot read properties of undefined (reading 'config')[39m
+[90m [2mΓ¥»[22m Proxy.chooseButtonLabel node_modules/src/fileupload/FileUpload.vue:[2m420:55[22m[39m
+[90m [2mΓ¥»[22m ReactiveEffect.fn node_modules/@vue/reactivity/dist/reactivity.cjs.js:[2m1009:13[22m[39m
+[90m [2mΓ¥»[22m ReactiveEffect.run node_modules/@vue/reactivity/dist/reactivity.cjs.js:[2m187:19[22m[39m
+[90m [2mΓ¥»[22m ComputedRefImpl.get value [as value] 
+node_modules/@vue/reactivity/dist/reactivity.cjs.js:[2m1022:109[22m[39m
+[90m [2mΓ¥»[22m Object.chooseButtonLabel 
+node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:[2m2653:22[22m[39m
+[90m [2mΓ¥»[22m Proxy.render 
+node_modules/src/fileupload/FileUpload.vue?vue&type=template&id=f9c2f764&lang.js:[2m59:42[22m[39m
+[90m [2mΓ¥»[22m renderComponentRoot node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:[2m886:16[22m[39m
+[90m [2mΓ¥»[22m ReactiveEffect.componentUpdateFn [as fn] 
+node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:[2m5080:46[22m[39m
+[90m [2mΓ¥»[22m ReactiveEffect.run node_modules/@vue/reactivity/dist/reactivity.cjs.js:[2m187:19[22m[39m
+[90m [2mΓ¥»[22m instance.update node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:[2m5211:16[22m[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[2/21]ΓÄ»[22m[39m
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[31m21 failed[39m[22m[2m | [22m[1m[32m1 passed[39m[22m[90m (22)[39m
+[2m   Start at [22m 07:55:24
+[2m   Duration [22m 953ms
+
+
+[1m[7m[31m FAIL [39m[27m[22m[31m Tests failed. Watching for file changes...[39m
+       [2mpress [22m[1mh[22m[2m to show help[22m[2m, [22m[2mpress [22m[1mq[22m[2m to quit[22m
+       [34mrerun x1[39m
+[2K[1A[2K[G       [90mrerun x1[39m
+[2K[1A[2K[G       [2m[90mrerun x1[39m[22m
